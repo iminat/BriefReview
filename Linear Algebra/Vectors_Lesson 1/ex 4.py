@@ -1,4 +1,4 @@
-# Draw these three vectorsto demonstrate that their sum is zero.
+# Draw these three vectors to demonstrate that their sum is zero.
 # Use function draw_vector defined above or create your own better version if you like.
 def vector_add(vec1, vec2):
     """
