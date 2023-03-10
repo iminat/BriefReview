@@ -1,0 +1,22 @@
+Answer in writing what are overfitting and underfitting. Why dataset must be split into parts?
+
+The underfitting is clearly seen: models just works bad.
+And the overfitting can not be detected considering only the training dataset.
+
+The dataset must be split to training and testing parts in order to reveal the overfitting.
+We take the test part of the data and estimate the model performance.
+If it is as good as for the training data everything is good, there is no overfitting.
+But if the models performs bad on the testing data we detect the overfitting.
+In this case we change something in the model.
+It means that the test data also take part in training.
+They influences although indirectly on the modification to the models.
+But the final score of the model can be estimated only for the data than are never seen by the model and
+that never influenced the model training.
+It means that the splitting the initial dataset into training and testing parts is not enough.
+We must split the dataset into three parts, training, validation and test:
+training data are immediately used to update model parameters
+validation data are used after several steps of training to estimate the performance and overfitting of the model;
+on the basis of this estimation corrections to training can be done
+test data are used just once to get the final score of the model; no model parameter updates cab be done after that.
+Usually the dataset is split as 70%, 20%, 10% or 80%, 10%, 10%.
+The training part is usually larger than all others.

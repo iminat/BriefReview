@@ -1,0 +1,20 @@
+# Answer in writing what is a model and what is a machine learning model.
+
+A model is a specification of mathematical relationship that exists between different variables.
+For instance, if you're going to write a cookbook recipe, you might build a model (likely in a spreadsheet)
+that takes inputs like "number of eaters" and "hungriness" to quantities of ingredients needed.
+The recipe model is probably based on trial and error - someone went in a kitchen
+and tried different combinations of ingredients until they found one they liked.
+Models are created using a formal language, such that mathematic notation, programming language.
+Models are created to obtain knowledges about the modeled system.
+Studying the model gives knowledge about the original system.
+
+
+A machine learning model is an aggregate of computer program and array of parameters (are mere computer variables).
+The model has inputs where the information from the domain of interest is fed and outputs where the prediction appears.
+The predictions are done after processing inputs by a model computer program using parameters.
+While the computer program is often standard, the values of parameters are specially tuned in the course of training.
+The parameters are the most precious part of the model. Their number is usually large and they are kept in files in external memory.
+While predictions are done by the model itself, its training requires additional software.
+It can be standard or written by a data scientist for the particular task.
+

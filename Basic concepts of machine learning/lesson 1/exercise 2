@@ -1,0 +1,22 @@
+# Write brief descriptions of three types of model learning
+
+There are 3 types of model learning: unsupervised models, supervised models, reinforcement models.
+Supervised learning: In supervised learning, the model is trained on a labeled dataset, where each data record
+is accompanied by a desired output.
+During training, the input is passed to the model and it produces an output that is compared to the desired output.
+The difference between the two is used to correct the model parameters.
+The goal of supervised learning is to extract and store the essential features of the data as model parameters,
+so that the model can produce a correct output for new inputs it has never seen before.
+
+Unsupervised learning: In unsupervised learning, the model is trained on unlabeled data,
+where no known output data is given to the model. The purpose of unsupervised learning is to detect patterns from data,
+such as identifying groups of similar examples within the data (data clustering) or estimating the distribution
+of the data based on a certain law (density estimation or parametric learning).
+Unsupervised learning is useful when the desired output is not known or is difficult to obtain.
+
+Reinforcement learning: In reinforcement learning, the model interacts with a dynamic environment that sends it inputs,
+and the model responds with outputs. The difference from supervised learning is that the exact desired output is unknown
+and the model receives feedback in the form of rewards and punishments based on its actions.
+The goal of reinforcement learning is to train the model to make decisions that maximize the reward over time.
+Reinforcement learning is used in tasks such as training a robot to navigate a maze or teaching a virtual agent
+to complete a task in a simulated environment.

@@ -1,0 +1,13 @@
+#Briefly describe in writing how kNN algorithm works
+
+The k-Nearest Neighbors (kNN) algorithm is a non-parametric supervised learning algorithm used for classification
+and regression. In the kNN algorithm, the output value of a new data point is predicted based on
+the "k" closest data points in the training set. To classify a new data point, the algorithm first calculates
+the distance between the new data point and all the other data points in the training set.
+Then it selects the "k" closest data points and assigns the new data point the class that is most common among those "k"
+neighbors. For example, if the new data point is surrounded by 5 neighbors, where 3 are labeled as "Class A" and 2
+are labeled as "Class B", the algorithm will predict that the new data point belongs to "Class A".
+The value of "k" is a hyperparameter and is usually chosen by cross-validation. A smaller value of "k" can result
+in a more flexible model that may overfit the training data, while a larger value of "k" can result in a smoother
+decision boundary that may underfit the data. Overall, the kNN algorithm is simple and easy to implement but can be
+computationally expensive for large datasets.

@@ -1,0 +1,17 @@
+# Describe how to deal with ties when more then one class appear in the neighborhood with identical frequencies.
+
+When considering more then one neighbors, they vote to assign a label.
+This means that it is counted how many neighbors belong to each class. The new point is assigned a more frequent label.
+Assume that and there are 2 classes.
+For a given data point the model have found neighbors with the following classes: (0, 0, 1).
+In this case the point will be labeled as belonging to the class 0.
+Assume however that we consider and 3 classes.
+It is possible that among the neighbors two different classes will appear twice: The neighbors can be like this (0,0,1,1,2).
+What class to choose, 0 or 1?
+Such situations are called ties.
+
+Their resolution depend on the implementation of the kNN model. There are several options:
+Pick the first met class in a list of neighbors as the winner.
+Pick one of the winners at random.
+Weight the votes by distance and pick the weighted winner.
+Reduce k until we find a unique winner.

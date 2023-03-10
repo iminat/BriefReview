@@ -1,0 +1,31 @@
+#Describe in writing the ways of fighting with overfitting and underfitting.
+
+Overfitting and underfitting are two common problems that can occur when training machine learning models.
+Overfitting occurs when a model is too complex and learns the training data too well, including its noise and outliers,
+leading to poor performance on new, unseen data.
+Underfitting, on the other hand, occurs when a model is too simple and cannot capture the underlying patterns in the
+data, resulting in poor performance both on the training data and on new data.
+
+There are several ways to combat overfitting and underfitting:
+Regularization: Regularization techniques add a penalty term to the loss function of the model to discourage complex
+models and favor simpler ones. L1 regularization, L2 regularization, and dropout are common regularization techniques.
+
+Cross-validation: Cross-validation is a technique to evaluate a model's performance on multiple splits of the data.
+By using multiple train-test splits, we can obtain a more accurate estimate of the model's performance on new data.
+
+Early stopping: Early stopping is a technique to stop the training process early when the model starts to overfit.
+We monitor the model's performance on a validation set and stop the training when the validation loss stops improving.
+
+Data augmentation: Data augmentation is a technique to generate new training data from the existing data by applying
+various transformations such as rotation, scaling, and flipping.
+This helps to increase the diversity of the training data and reduces overfitting.
+
+Feature selection: Feature selection is a technique to select the most relevant features from the data to reduce
+the complexity of the model and prevent overfitting.
+
+Ensembling: Ensembling is a technique to combine multiple models to improve the overall performance.
+By combining the predictions of multiple models, we can reduce the variance and improve the generalization performance.
+
+Overall, the choice of a specific technique to combat overfitting or underfitting depends on the problem at hand,
+the complexity of the data, and the size of the dataset. A combination of multiple techniques may be required for
+optimal performance.

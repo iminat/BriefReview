@@ -1,0 +1,14 @@
+# Describe in writing what an assumption is made when a naive Bayes classifier is created. Why the classifier is naive?
+
+When creating a naive Bayes classifier, one of the main assumptions made is that the features used to describe the data
+are conditionally independent given the class. In other words, the probability of observing a particular combination of
+features is assumed to be the product of the probabilities of each individual feature, given the class.
+This assumption is sometimes called the "naive" assumption because it is a simplification of reality.
+In many real-world scenarios, the features used to describe the data are not actually independent given the class.
+For example, in a spam detection task, the presence of certain words may be correlated with the presence of other words.
+However, despite this simplification, naive Bayes classifiers can often perform surprisingly well in practice.
+The reason why the classifier is called "naive" is because it makes this strong assumption of conditional independence,
+which may not hold in reality. However, this simplification allows for a very efficient and effective method for
+classification, and the approach is widely used in many applications, including text classification, sentiment analysis,
+and image recognition.
+

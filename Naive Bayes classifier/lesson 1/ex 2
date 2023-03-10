@@ -1,0 +1,10 @@
+# Describe in writing what means maximum likelihood?
+
+Maximum likelihood is a statistical method used to estimate the parameters of a probability distribution based on
+a set of observed data. The basic idea is to find the values of the parameters that maximize the likelihood of observing
+the data that we have. The likelihood is the probability of observing the data given a set of parameter values.
+In other words, it is the probability of obtaining the data we have,
+assuming that the distribution is specified by the parameter values we are interested in.
+To find the maximum likelihood estimate of the parameters, we typically use an optimization algorithm
+to find the values that maximize the likelihood function. This involves taking the derivative of the likelihood function
+with respect to each parameter and setting them equal to zero to find the values that maximize the function.
