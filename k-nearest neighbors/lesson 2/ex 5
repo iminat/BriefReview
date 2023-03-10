@@ -1,0 +1,28 @@
+# Describe in writing how precision and recall is computed in multi-class classification
+
+Precision and recall are two commonly used metrics to evaluate the performance of a multi-class classification model.
+Precision measures the proportion of instances that were correctly classified as positive out of all the instances that were
+classified as positive, while recall measures the proportion of instances that were correctly classified as positive out
+of all the instances that are truly positive.
+
+To compute precision and recall in multi-class classification, we need to follow the following steps:
+
+Firstly, we need to compute the confusion matrix as described in the previous answer.
+
+For each class, we can compute precision and recall using the following formulas:
+
+Precision = TP / (TP + FP)
+Recall = TP / (TP + FN)
+
+where TP, FP, and FN are the number of true positives, false positives, and false negatives, respectively, for that class.
+
+We can then compute the average precision and recall across all classes using one of the following methods:
+Macro-average: Compute the precision and recall for each class and then take the average across all classes, giving equal weight to each class.
+Micro-average: Compute the overall number of true positives, false positives, and false negatives across all classes and
+use these to compute the precision and recall for the entire dataset.
+Depending on the application, we may choose to weight precision and recall differently for different classes.
+In this case, we can use the weighted average method, where we compute the average precision and recall across all classes,
+weighted by the number of instances in each class.
+In summary, precision and recall are computed in multi-class classification by first computing the confusion matrix,
+and then using the number of true positives, false positives, and false negatives to compute precision and recall for each class.
+We can then use one of several methods to compute the average precision and recall across all classes.

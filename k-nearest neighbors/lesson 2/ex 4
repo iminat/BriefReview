@@ -1,0 +1,33 @@
+# Describe in writing how the confusion matrix is computed in multi-class classification
+
+In multi-class classification, the confusion matrix is a table that is used to evaluate the performance of a machine learning model.
+The confusion matrix displays the number of true positives, true negatives, false positives, and false negatives for each class.
+
+To compute the confusion matrix in multi-class classification, we need to follow the following steps:
+
+Firstly, we need to train the machine learning model on the training data.
+
+Once the model is trained, we need to apply it to the test data.
+
+For each instance in the test data, the model will make a prediction for the class label.
+
+We then compare the predicted class label with the true class label for that instance.
+
+Based on the comparison, we can classify the instance as one of the following:
+
+True Positive (TP): The model correctly predicted the class label for the instance.
+True Negative (TN): The model correctly rejected the class label for the instance.
+False Positive (FP): The model predicted the wrong class label for the instance.
+False Negative (FN): The model rejected the true class label for the instance.
+We then tally the number of instances that fall into each of the four categories (TP, TN, FP, FN) for each class.
+Finally, we create a table where each row represents the true class label, and each column represents the predicted class label.
+The entries in the table represent the number of instances that fall into each category for each class.
+
+In summary, the confusion matrix in multi-class classification is computed by comparing the predicted class label with
+the true class label for each instance in the test data and tallying the number of instances that fall into each category for each class.
+The resulting table provides a comprehensive view of the performance of the machine learning model.
+
+
+
+
+
