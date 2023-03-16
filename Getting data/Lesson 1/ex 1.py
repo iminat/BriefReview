@@ -11,6 +11,6 @@ with open("multiplication_table.txt", "w") as file:
     for i in range(2, 10):
         for j in range(2, 10):
             # Compute the product
-            product = i * j
+            result = i * j
             # Write to the file
-            file.write(f"{i} x {j} = {product}\n")
+            file.write(f"{i} x {j} = {result}\n")

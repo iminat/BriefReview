@@ -8,7 +8,7 @@ month_days = [("January", 31), ("February", 28), ("March", 31), ("April", 30), (
               ("July", 31), ("August", 31), ("September", 30), ("October", 31), ("November", 30), ("December", 31)]
 
 # Open the CSV file for writing
-with open("month_days.csv", "w", newline="") as file:
+with open("month_days.csv", "w", newline='') as file:
     # Create a CSV writer object
     writer = csv.writer(file)
     # Write the header row
