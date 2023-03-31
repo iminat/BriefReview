@@ -1,0 +1,79 @@
+1. What is vector norm and what vector norms you know?
+
+Vector norm is a measure of the size or magnitude of a vector in a vector space.
+A vector norm assigns a scalar value to each vector such that it satisfies certain properties, such as non-negativity,
+homogeneity, and the triangle inequality. Some vector norms include Manhattan norm, Euclidean norm,
+L-infinity norm (maximum norm), and p-norm.
+
+2. What is cosine similarity?
+Cosine similarity is a measure of similarity between two non-zero vectors in a high-dimensional space.
+It measures the cosine of the angle between the two vectors, and is used to determine how similar the two vectors are
+in terms of their orientations, regardless of their magnitudes.
+
+3. What are mean, median, and mode of a dataset?
+The mean of a dataset is the sum of all values in the dataset divided by the total number of values.
+The median is the value that separates the upper and lower halves of the dataset when the values are arranged in
+ascending or descending order. The mode is the value that appears most frequently in the dataset.
+
+4. What are quartiles?
+Quartiles are values that divide a dataset into four equal parts, each containing 25% of the data.
+The first quartile (Q1) is the value that separates the lowest 25% of the dataset from the rest, the second quartile (Q2)
+is the median of the dataset, and the third quartile (Q3) is the value that separates the highest 25% of the dataset from the rest.
+
+5. What are two ways to define probability?
+Probability can be defined as the relative frequency of an event occurring in a large number of trials, or as a measure
+of the likelihood of an event occurring based on the available information.
+
+6. What are independent random events?
+Independent random events are events that have no influence on each other, meaning the occurrence of one event does not
+affect the probability of the other event occurring.
+
+7. What is normal distribution?
+Normal distribution, also known as Gaussian distribution, is a continuous probability distribution that describes the
+distribution of a random variable that is normally distributed. The normal distribution is characterized by a bell-shaped
+curve with the mean and standard deviation as its parameters.
+
+8. What is central limit theorem?
+Central limit theorem is a fundamental concept in statistics that states that the sum of a large number of independent
+and identically distributed random variables tends to follow a normal distribution, regardless of the underlying
+distribution of the variables.
+
+9. What is cross entropy?
+Cross entropy is a measure of the difference between two probability distributions. It is often used as a loss function
+in machine learning models, where it measures the difference between the predicted probability distribution
+and the actual probability distribution.
+
+10. Describe Type 1 and Type 2 errors in statistical inference.
+Type 1 error is the incorrect rejection of a true null hypothesis, while Type 2 error is the failure to reject a false
+null hypothesis. Type 1 error is also known as a false positive, while Type 2 error is also known as a false negative.
+
+11. What is gradient descent?
+Gradient descent is an optimization algorithm used to minimize the cost function of a machine learning model by
+iteratively adjusting the parameters of the model in the direction of the negative gradient of the cost function.
+
+12. What is CSV-file?
+CSV (Comma-Separated Values) file is a text file format used to store tabular data, such as spreadsheet or database data.
+Each row of the table is represented by a line of text, and each column is separated by a comma or other delimiter.
+
+13. What are data outliers?
+Data outliers are observations that are significantly different from other observations in a dataset.
+Outliers can affect statistical analysis by skewing the results and should be treated with caution.
+
+14. What are regular expressions?
+Regular expressions are a sequence of characters that define a search pattern.
+They are commonly used in text processing to search and manipulate strings.
+
+15. What matches the pattern [\w']+
+The pattern [\w']+ matches one or more consecutive occurrences of alphanumeric characters or apostrophes.
+
+16. What is one-hot encoding? When it is applied?
+One-hot encoding is a technique used in machine learning to convert categorical variables into a numeric format that
+can be used in statistical analysis. It involves creating a binary column for each category, where a value
+of 1 represents the presence of the category and a value of 0 represents the absence. One-hot encoding is commonly
+applied to variables with a small number of categories.
+
+17. What PCA does?
+PCA, or principal component analysis, is a technique used in machine learning and statistical analysis to reduce
+the dimensionality of a dataset. It involves transforming the original variables into a new set of variables,
+called principal components, that explain the maximum amount of variation in the data. PCA can be used for data visualization,
+feature extraction, and data compression.
